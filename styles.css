@@ -1,0 +1,100 @@
+/* Style the table container */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 0;
+}
+
+h1 {
+    color: #333;
+}
+
+#id-search-input {
+    width: 30%;
+    border: 3px solid #00B4CC;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px;
+    outline: none;
+    color: #9DBFAF;
+    margin: 20px 0px;
+}
+
+#id-search-input:focus{
+    color: #00B4CC;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    /* margin: 0 auto; */
+
+}
+
+/* Style table header (th) */
+table th {
+    background-color: #f2f2f2;
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+/* Style table cells (td) */
+table td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: left;
+
+}
+
+/* Alternate row background color for better readability */
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Additional styling for the table body (optional) */
+tbody {
+    background-color: #fff;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.c-loader {
+    width: 48px;
+    height: 48px;
+    border: 5px solid #63636360;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    margin-top: 10p;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+} 
+
+.c-loader-container {
+    text-align: center;
+}
+    
+.c-loader-container p {
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.c-error-text {
+    color: red;
+}
+
+
